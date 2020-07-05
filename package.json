@@ -1,7 +1,8 @@
 {
   "name": "@ibm/plex",
   "description": "The package of IBM’s typeface, IBM Plex",
-  "version": "1.2.1",
+  "main": "css/ibm-plex.css",
+  "version": "5.0.0",
   "repository": "https://github.com/ibm/plex.git",
   "license": "OFL-1.1",
   "keywords": [
@@ -11,16 +12,19 @@
     "url": "https://github.com/ibm/plex/issues"
   },
   "scripts": {
-    "build": "npm run build:scss && npm run build:css",
+    "clean": "rimraf css scss",
+    "build": "npm run clean && npm run build:scss && npm run build:css",
+    "build:zip": "node scripts/build-zip.js",
     "build:css": "node-sass scss/ibm-plex.scss --output css && node-sass scss/ibm-plex.scss > css/ibm-plex.min.css --output-style compressed",
     "build:scss": "node scripts/export-scss.js",
     "precommit": "lint-staged",
     "prettier": "prettier --write \"**/*.{scss}\"",
     "prepare": "yarn build"
   },
-  "dependencies": {},
   "devDependencies": {
+    "archiver": "^3.0.0",
     "fs-extra": "^7.0.0",
+    "git-branch": "^2.0.1",
     "husky": "^0.14.3",
     "lint-staged": "^4.3.0",
     "node-sass": "^4.7.2",

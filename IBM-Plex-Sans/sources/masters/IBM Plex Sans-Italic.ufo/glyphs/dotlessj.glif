@@ -15,7 +15,22 @@
       <point x="-73" y="-132" type="line"/>
     </contour>
     <contour>
-      <point x="184" y="540" type="move" name="top"/>
+      <point x="184.0" y="540.0" type="move" name="top"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0237</string>
+      <key>com.type-invaders.name.production</key>
+      <string>dotlessj</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

@@ -4,3 +4,6 @@ css
 *.lock
 *.log
 package-lock.json
+.DS_Store
+zip
+**/.DS_Store

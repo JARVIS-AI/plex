@@ -1,5 +1,3 @@
-'use strict';
-
 const families = [
   {
     type: 'Mono',
@@ -19,17 +17,37 @@ const families = [
   {
     type: 'Sans Hebrew',
     name: 'IBM Plex Sans Hebrew',
+    hasItalic: false,
     unicodes: [],
   },
   {
-    type: 'Thai',
-    name: 'IBM Plex Thai',
+    type: 'Sans Devanagari',
+    name: 'IBM Plex Sans Devanagari',
+    hasItalic: false,
+    unicodes: [],
+  },
+  {
+    type: 'Sans Thai',
+    name: 'IBM Plex Sans Thai',
+    hasItalic: false,
+    unicodes: [],
+  },
+  {
+    type: 'Sans Thai Looped',
+    name: 'IBM Plex Sans Thai Looped',
+    hasItalic: false,
     unicodes: [],
   },
   {
     type: 'Serif',
     name: 'IBM Plex Serif',
     unicodes: ['Latin1', 'Latin2', 'Latin3', 'Pi', 'Cyrillic'],
+  },
+  {
+    type: 'Sans Arabic',
+    name: 'IBM Plex Sans Arabic',
+    hasItalic: false,
+    unicodes: [],
   },
 ];
 

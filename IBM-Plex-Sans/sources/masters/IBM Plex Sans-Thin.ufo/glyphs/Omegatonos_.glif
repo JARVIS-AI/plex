@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Omegatonos" format="1">
-  <advance width="694"/>
+  <advance width="698"/>
   <unicode hex="038F"/>
   <outline>
     <component base="Omega"/>
